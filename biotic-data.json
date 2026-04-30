@@ -1,38 +1,41 @@
 {
   "threshold": 1000,
+  "assessment_window": 21,
   "sprints": [
     {
       "id": "baseline",
       "label": "Pre-sprint baseline",
-      "sublabel": "Feb 2026 \u00b7 normalised to 12-day equivalent",
-      "start": "2026-02-01",
-      "end": "2026-02-28",
-      "days": 28,
-      "note": "Biotic only reached comparable scale in early 2026. No earlier steady-state period for fair comparison.",
+      "sublabel": "Sep\u2013Oct 2025 \u00b7 normalised to 12-day equivalent",
+      "start": "2025-09-01",
+      "end": "2025-10-31",
+      "days": 61,
+      "note": "Only meaningful Biotic spend before 2026. Ran at ~25% of sprint-era scale \u2014 shows a lower-investment pipeline, not a direct like-for-like.",
       "unit": 12,
       "stats": {
-        "ads": 222,
-        "ads_norm": 95,
-        "spend": 108830,
-        "spend_norm": 46641,
-        "winners": 24,
-        "winners_norm": 10.3,
-        "hit_rate": 10.8,
-        "cpa": 176,
-        "near_good": 0,
-        "near_weak": 58,
-        "cold": 140
+        "ads": 108,
+        "ads_norm": 21,
+        "spend": 114695,
+        "spend_norm": 22563,
+        "winners": 22,
+        "winners_norm": 4.3,
+        "hit_rate": 20.4,
+        "cpa": 114,
+        "near_good": 8,
+        "near_weak": 32,
+        "cold": 46
       },
       "winners_list": []
     },
     {
       "id": "s1",
-      "label": "Sprint #5.26",
+      "label": "Sprint 1 (#5.26)",
       "sublabel": "Mon 2 Mar \u2192 Fri 13 Mar \u00b7 12 days",
       "start": "2026-03-02",
       "end": "2026-03-13",
       "days": 12,
-      "note": "Old naming convention \u2014 continuing from pre-pod sprint cadence",
+      "note": "",
+      "assess_date": "~3 Apr",
+      "assess_wks": "~5 wks",
       "unit": 12,
       "stats": {
         "ads": 120,
@@ -108,18 +111,18 @@
           "cpa": 202,
           "days": 44
         }
-      ],
-      "assess_date": "12 Apr",
-      "assess_wks": "6 wks"
+      ]
     },
     {
       "id": "s2",
-      "label": "Sprint B-06",
+      "label": "Sprint 2 (B-06)",
       "sublabel": "Mon 16 Mar \u2192 Thu 27 Mar \u00b7 12 days",
       "start": "2026-03-16",
       "end": "2026-03-27",
       "days": 12,
-      "note": "New focal naming \u2014 but continuing old sprint number",
+      "note": "New focal naming convention from this sprint",
+      "assess_date": "~17 Apr",
+      "assess_wks": "~5 wks",
       "unit": 12,
       "stats": {
         "ads": 109,
@@ -130,8 +133,8 @@
         "winners_norm": 10.0,
         "hit_rate": 9.2,
         "cpa": 241,
-        "near_good": 0,
-        "near_weak": 26,
+        "near_good": 1,
+        "near_weak": 25,
         "cold": 73
       },
       "winners_list": [
@@ -195,18 +198,18 @@
           "cpa": 259,
           "days": 30
         }
-      ],
-      "assess_date": "26 Apr",
-      "assess_wks": "6 wks"
+      ]
     },
     {
       "id": "s3",
-      "label": "Sprint B-03",
+      "label": "Sprint 3 (B-03)",
       "sublabel": "Mon 30 Mar \u2192 Fri 10 Apr \u00b7 12 days",
       "start": "2026-03-30",
       "end": "2026-04-10",
       "days": 12,
-      "note": "Accurate sprint cadence and naming from this point",
+      "note": "",
+      "assess_date": "~1 May",
+      "assess_wks": "~5 wks",
       "unit": 12,
       "stats": {
         "ads": 204,
@@ -217,8 +220,8 @@
         "winners_norm": 19.0,
         "hit_rate": 9.3,
         "cpa": 196,
-        "near_good": 0,
-        "near_weak": 45,
+        "near_good": 4,
+        "near_weak": 41,
         "cold": 140
       },
       "winners_list": [
@@ -336,18 +339,18 @@
           "cpa": 206,
           "days": 26
         }
-      ],
-      "assess_date": "10 May",
-      "assess_wks": "6 wks"
+      ]
     },
     {
       "id": "s4",
-      "label": "Sprint B-04",
+      "label": "Sprint 4 (B-04)",
       "sublabel": "Mon 13 Apr \u2192 Thu 24 Apr \u00b7 12 days",
       "start": "2026-04-13",
       "end": "2026-04-24",
       "days": 12,
       "note": "",
+      "assess_date": "~15 May",
+      "assess_wks": "~5 wks",
       "unit": 12,
       "stats": {
         "ads": 63,
@@ -358,8 +361,8 @@
         "winners_norm": 8.0,
         "hit_rate": 12.7,
         "cpa": 161,
-        "near_good": 0,
-        "near_weak": 8,
+        "near_good": 3,
+        "near_weak": 5,
         "cold": 47
       },
       "winners_list": [
@@ -411,9 +414,7 @@
           "cpa": 131,
           "days": 2
         }
-      ],
-      "assess_date": "24 May",
-      "assess_wks": "6 wks"
+      ]
     }
   ],
   "timing": {
@@ -421,6 +422,7 @@
     "median_early": 4,
     "median_win": 11,
     "pct_d14": 68,
+    "pct_d21": 82,
     "pct_d30": 94,
     "dist": [
       32,
