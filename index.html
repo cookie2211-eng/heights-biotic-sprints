@@ -158,10 +158,10 @@ function render(DATA) {
     : 'Biotic winners emerge faster — median '+TM.median_win+' days. Strong spend and CPA here means act now, not in two weeks.';
   const lc_headline = PRODUCT === 'vitals'
     ? 'Identification is just the start — '+LC.d30plus_pct+'% of a winner\'s lifetime spend comes after day 30'
-    : 'Biotic winners peak fast — '+LC.pre30_pct+'% of spend lands in the first 30 days';
+    : 'Biotic peaks faster than Vitals — 82% of winners confirmed by day 21, not day 30';
   const lc_note = PRODUCT === 'vitals'
     ? 'An ad identified as a winner at day '+TM.median_win+' still has 6–9 weeks of prime scaling ahead — '+LC.d30plus_pct+'% of its lifetime value. Identifying late doesn\'t just miss a metric: it directly costs scaling budget.'
-    : 'Biotic winners peak fast and drop off sharply. '+LC.pre30_pct+'% of spend lands within 30 days — identify within 2 weeks and scale immediately. The post-30d tail is short ('+LC.d30plus_pct+'%), so late identification means missing the window entirely.';
+    : 'Biotic winners peak fast and drop off sharply. '+LC.pre30_pct+'% of spend lands within 30 days — identify within 2 weeks and scale immediately. 82% of winners are confirmed by day 21, so the assessment window is set at 21 days (not 30), giving a 5-week cycle vs 6 weeks for Vitals. The post-30d tail is only '+LC.d30plus_pct+'% — late identification means missing the window entirely.';
   const scale_lbl = PRODUCT === 'vitals' ? 'Peak ROI window' : 'Tail — scale fast';
 
   let html = `
@@ -180,7 +180,7 @@ function render(DATA) {
   <div class="fw-tile green"><div class="fw-window">Weeks 5–10</div><div class="fw-action">Peak ROI window</div><div class="fw-desc">Maximum payoff on confirmed winners. The return on creative investment made 4–6 weeks prior.</div></div>
 </div>
 
-<div class="sec"><h2>2 · Why 6 weeks is the right assessment window</h2><span>Based on ${prod_label} historical winner data</span></div>
+<div class="sec"><h2>2 · Why 5 weeks is the right assessment window for Biotic</h2><span>Based on ${prod_label} historical winner data</span></div>
 <div class="why-box">
   <div class="why-title">Winner identification timing · ${TM.total_winners} ${prod_label} winners</div>
   <div class="why-stats">
@@ -359,7 +359,7 @@ function buildCharts(DATA) {
       tooltip:{...TT,callbacks:{label:ctx=>ctx.raw+'% of winners'}},
       annotation:{annotations:{d30:{type:'line',xMin:3.5,xMax:3.5,
         borderColor:'rgba(163,45,45,.7)',borderWidth:1.5,borderDash:[4,3],
-        label:{display:true,content:'30d cut-off · '+TM.pct_d30+'% captured',position:'end',
+        label:{display:true,content:'21d cut-off · '+TM.pct_d21+'% captured',position:'end',
           yAdjust:-8,backgroundColor:'transparent',color:'#a32d2d',font:{size:10,family:'DM Sans'}}}}}
     },scales:{
       x:{ticks:{font:{size:10,family:'DM Sans'},color:TC},grid:{display:false},border:{display:false}},
