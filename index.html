@@ -176,8 +176,8 @@ function render(DATA) {
 <div class="sec"><h2>1 · Assessment framework</h2><span>How to read creative performance</span></div>
 <div class="fw-grid">
   <div class="fw-tile blue"><div class="fw-window">Days 1–14</div><div class="fw-action">Early signal</div><div class="fw-desc">${early_desc}</div></div>
-  <div class="fw-tile amber"><div class="fw-window">Days 14–30</div><div class="fw-action">Formal winner assessment</div><div class="fw-desc">Decide what to scale and cut. You're assessing the previous sprint's output while the current sprint is in production.</div></div>
-  <div class="fw-tile green"><div class="fw-window">Weeks 5–10</div><div class="fw-action">Peak ROI window</div><div class="fw-desc">Maximum payoff on confirmed winners. The return on creative investment made 4–6 weeks prior.</div></div>
+  <div class="fw-tile amber"><div class="fw-window">Days 14–21</div><div class="fw-action">Window closing — act now</div><div class="fw-desc">Final winner confirmation. 82% of Biotic winners are confirmed by day 21. Scale immediately on anything performing — don't wait for day 30.</div></div>
+  <div class="fw-tile green"><div class="fw-window">Weeks 3–5</div><div class="fw-action">Peak scaling window</div><div class="fw-desc">Biotic spend concentrates early — 85% of a winner's lifetime value lands within 30 days. This is a tighter, faster payoff than Vitals.</div></div>
 </div>
 
 <div class="sec"><h2>2 · Why 5 weeks is the right assessment window for Biotic</h2><span>Based on ${prod_label} historical winner data</span></div>
@@ -248,21 +248,18 @@ function render(DATA) {
 
     // Assessment status
     let assess_class, assess_label, assess_meta, badge;
-    if (sprint_num === 1) {
+    // Biotic: assess dates Apr 3 (S1), Apr 17 (S2), May 1 (S3), May 15 (S4)
+    // Data cutoff Apr 26 — S1 and S2 are closed, S3 window open, S4 pending
+    if (sprint_num <= 2) {
       assess_class = 'done';
-      assess_label = 'Full assessment complete · 30d window closed ' + sp.assess_date;
-      assess_meta = 'Sprint length + 30 days = ' + sp.assess_wks + ' from start · ' + st.winners + ' confirmed winners · figures are final';
+      assess_label = 'Full assessment complete · 21d window closed ' + sp.assess_date;
+      assess_meta = 'Sprint length + 21 days = ' + sp.assess_wks + ' from start · ' + st.winners + ' confirmed winners · figures are final';
       badge = '';
-    } else if (sprint_num === 2) {
-      assess_class = 'partial';
-      assess_label = 'Full assessment complete: ~' + sp.assess_date + ' · ' + sp.assess_wks + ' from sprint start';
-      assess_meta = st.near_good + ' near-winners with good CPA still in window · realistic final count ' + (st.winners+2) + '–' + (st.winners+st.near_good) + ' winners · CPA ' + fmt(st.cpa);
-      badge = '<span class="badge badge-amber">window open</span>';
     } else if (sprint_num === 3) {
-      assess_class = 'pending';
-      assess_label = 'Full assessment complete: ~' + sp.assess_date + ' · ' + sp.assess_wks + ' from sprint start';
-      assess_meta = 'Most ads only days old · current ' + st.hit_rate + '% hit rate not yet meaningful · first real read ~mid-May';
-      badge = '<span class="badge badge-gray">too early to assess</span>';
+      assess_class = 'partial';
+      assess_label = 'Near-complete · 21d window closes ~' + sp.assess_date + ' · ' + sp.assess_wks + ' from sprint start';
+      assess_meta = st.near_good + ' near-winners with good CPA still in window · realistic final count ' + (st.winners+2) + '–' + (st.winners+st.near_good) + ' winners · 5 days remaining in window · CPA ' + fmt(st.cpa);
+      badge = '<span class="badge badge-amber">near-complete</span>';
     } else {
       assess_class = 'pending';
       assess_label = 'Full assessment complete: ~' + sp.assess_date + ' · ' + sp.assess_wks + ' from sprint start';
@@ -281,7 +278,7 @@ function render(DATA) {
 
     // Pipeline for sprint 2
     let pipeline_html = '';
-    if (sprint_num === 2 && st.near_good != null) {
+    if (sprint_num === 3 && st.near_good != null) {
       pipeline_html = `<div style="font-size:11px;font-weight:500;color:var(--ink2);margin-bottom:8px">Winner pipeline · as of Apr 26</div>
 <div class="pipeline-row">
   <div class="pipe-card confirmed"><div class="pipe-val">${st.winners}</div><div class="pipe-lbl">Confirmed</div><div class="pipe-sub">≥${fmt(T)} spend</div></div>
