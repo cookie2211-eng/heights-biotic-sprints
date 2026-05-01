@@ -124,6 +124,29 @@
           "days": 44
         }
       ],
+      "scalers_list": [
+        {
+          "name": "Partnership · Spencer Matthews Ambassador Podcast · Greatness Hook 3",
+          "spend": 16171,
+          "spend_6w": 16171,
+          "cpa": 180,
+          "days": 44
+        },
+        {
+          "name": "Everyone thinks I'm a hermit · Biotic⁺ · GUTCONTROL",
+          "spend": 6982,
+          "spend_6w": 6982,
+          "cpa": 194,
+          "days": 44
+        },
+        {
+          "name": "The foods you’ve stopped eating · Biotic⁺ · NORMAL",
+          "spend": 2883,
+          "spend_6w": 2883,
+          "cpa": 222,
+          "days": 44
+        }
+      ],
       "assess_date": "~3 Apr",
       "assess_wks": "~5 wks"
     },
@@ -183,6 +206,29 @@
           "spend": 1064,
           "cpa": 177,
           "days": 37
+        }
+      ],
+      "scalers_list": [
+        {
+          "name": "Matt Willis - Biotic - Second Brain 50s Version Hook 1 · Hook 1 · Biotic⁺",
+          "spend": 4952,
+          "spend_6w": 4952,
+          "cpa": 236,
+          "days": 37
+        },
+        {
+          "name": "Ben Shephard Ambassador Biotic · Problem + Agitation 2 Hook 4 · Biotic⁺",
+          "spend": 2567,
+          "spend_6w": 2567,
+          "cpa": 171,
+          "days": 37
+        },
+        {
+          "name": "Man - Hook 1 · Biotic⁺ · GUTCONTROL",
+          "spend": 2100,
+          "spend_6w": 2100,
+          "cpa": 233,
+          "days": 38
         }
       ],
       "assess_date": "~17 Apr",
@@ -318,6 +364,71 @@
           "days": 23
         }
       ],
+      "scalers_list": [
+        {
+          "name": "Spencer Matthews & Oli Patrick - Sell it to me · Stripped back - Angle 2 Hook 2 ",
+          "spend": 4397,
+          "spend_6w": 4397,
+          "cpa": 137,
+          "days": 26
+        },
+        {
+          "name": "Ben Shephard Ambassador Biotic · Problem + Agitation 2 Hook 4 · Biotic⁺",
+          "spend": 3547,
+          "spend_6w": 3547,
+          "cpa": 107,
+          "days": 23
+        },
+        {
+          "name": "Ben Shephard Ambassador Biotic · Problem + Agitation 2 Hook 4 · Biotic⁺",
+          "spend": 3092,
+          "spend_6w": 3092,
+          "cpa": 129,
+          "days": 23
+        },
+        {
+          "name": "Partnership · Spencer Matthews Ambassador Podcast · Greatness Hook 3",
+          "spend": 3061,
+          "spend_6w": 3061,
+          "cpa": 161,
+          "days": 17
+        },
+        {
+          "name": "Biotic · Long Term Sufferer · normal · Brightshift · New Concept · B-03",
+          "spend": 2790,
+          "spend_6w": 2790,
+          "cpa": 254,
+          "days": 16
+        },
+        {
+          "name": "Biotic · IBS Sufferer · Gut Control · Brightshift · New Concept · B-06",
+          "spend": 2362,
+          "spend_6w": 2362,
+          "cpa": 169,
+          "days": 19
+        },
+        {
+          "name": "Carol x Dan Podcast, Biotic Variation Hook 3 · Hook 3 (Cutdown) · Biotic⁺",
+          "spend": 2151,
+          "spend_6w": 2151,
+          "cpa": 154,
+          "days": 23
+        },
+        {
+          "name": "Biotic · founderhp · Brightshift · New Concept · B-03",
+          "spend": 2127,
+          "spend_6w": 2127,
+          "cpa": 236,
+          "days": 16
+        },
+        {
+          "name": "Carol x Dan Podcast, Biotic Variation Hook 3 · Hook 3 (Cutdown) · Biotic⁺",
+          "spend": 2019,
+          "spend_6w": 2019,
+          "cpa": 155,
+          "days": 23
+        }
+      ],
       "assess_date": "~1 May",
       "assess_wks": "~5 wks"
     },
@@ -395,6 +506,36 @@
           "spend": 1219,
           "cpa": 609,
           "days": 12
+        }
+      ],
+      "scalers_list": [
+        {
+          "name": "Biotic · Health Optimiser · nothingworks · Brightshift · Iteration · B-03",
+          "spend": 10076,
+          "spend_6w": 10076,
+          "cpa": 111,
+          "days": 11
+        },
+        {
+          "name": "Partnership · Spencer Matthews Ambassador Podcast · Greatness Hook 3",
+          "spend": 6537,
+          "spend_6w": 6537,
+          "cpa": 192,
+          "days": 12
+        },
+        {
+          "name": "Matt Willis - Biotic - Second Brain 50s Version Hook 1 · Hook 1 · Biotic⁺",
+          "spend": 6352,
+          "spend_6w": 6352,
+          "cpa": 318,
+          "days": 12
+        },
+        {
+          "name": "Matt Willis - Biotic - Second Brain 50s Version Hook 1 · Hook 1 · Biotic⁺",
+          "spend": 2005,
+          "spend_6w": 2005,
+          "cpa": 154,
+          "days": 2
         }
       ],
       "assess_date": "~15 May",
