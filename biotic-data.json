@@ -16,17 +16,17 @@
         "ads_norm": 14.0,
         "spend": 89563,
         "spend_norm": 17619,
-        "winners": 13,
-        "winners_norm": 2.6,
-        "hit_rate": 18.1,
+        "winners": 14,
+        "winners_norm": 2.8,
+        "hit_rate": 19.4,
         "scalers": 7,
         "scalers_norm": 1.4,
         "scalers_complete": true,
         "scaler_bar": 2000,
         "cpa": 109,
         "near_good": 7,
-        "near_weak": 20,
-        "cold": 32
+        "near_weak": 21,
+        "cold": 30
       },
       "winners_list": []
     },
@@ -53,8 +53,8 @@
         "scaler_bar": 2000,
         "cpa": 261,
         "near_good": 0,
-        "near_weak": 25,
-        "cold": 74
+        "near_weak": 26,
+        "cold": 73
       },
       "winners_list": [
         {
@@ -142,8 +142,8 @@
           "sprint_day": 12
         }
       ],
-      "assess_date": "~3 Apr",
-      "assess_wks": "~5 wks"
+      "assess_date": "~12 Apr",
+      "assess_wks": "~6 wks"
     },
     {
       "id": "s2",
@@ -159,19 +159,27 @@
         "ads_norm": 40.0,
         "spend": 14800,
         "spend_norm": 14800,
-        "winners": 1,
-        "winners_norm": 1.0,
-        "hit_rate": 2.5,
-        "scalers": 1,
-        "scalers_norm": 1.0,
+        "winners": 2,
+        "winners_norm": 2.0,
+        "hit_rate": 5.0,
+        "scalers": 2,
+        "scalers_norm": 2.0,
         "scalers_complete": false,
         "scaler_bar": 2000,
         "cpa": 255,
         "near_good": 1,
-        "near_weak": 12,
-        "cold": 26
+        "near_weak": 14,
+        "cold": 23
       },
       "winners_list": [
+        {
+          "name": "2603-048-05 · Biotic · Long Term Sufferer · Gut Control · Internal · Iteration · B-06",
+          "spend": 2554,
+          "cpa": 150,
+          "days": 30,
+          "first_spend": "Mar 27",
+          "sprint_day": 12
+        },
         {
           "name": "Man - Hook 1 · Biotic⁺ · GUTCONTROL",
           "spend": 2100,
@@ -183,6 +191,15 @@
       ],
       "scalers_list": [
         {
+          "name": "2603-048-05 · Biotic · Long Term Sufferer · Gut Control · Internal · Iteration · B-06",
+          "spend": 2554,
+          "spend_6w": 2554,
+          "cpa": 150,
+          "days": 30,
+          "first_spend": "Mar 27",
+          "sprint_day": 12
+        },
+        {
           "name": "Man - Hook 1 · Biotic⁺ · GUTCONTROL",
           "spend": 2100,
           "spend_6w": 2100,
@@ -192,8 +209,8 @@
           "sprint_day": 4
         }
       ],
-      "assess_date": "~17 Apr",
-      "assess_wks": "~5 wks"
+      "assess_date": "~26 Apr",
+      "assess_wks": "~6 wks"
     },
     {
       "id": "s3",
@@ -209,15 +226,15 @@
         "ads_norm": 110.0,
         "spend": 29171,
         "spend_norm": 29171,
-        "winners": 6,
-        "winners_norm": 6.0,
-        "hit_rate": 5.5,
+        "winners": 7,
+        "winners_norm": 7.0,
+        "hit_rate": 6.4,
         "scalers": 3,
         "scalers_norm": 3.0,
         "scalers_complete": false,
         "scaler_bar": 2000,
         "cpa": 254,
-        "near_good": 2,
+        "near_good": 1,
         "near_weak": 19,
         "cold": 83
       },
@@ -269,6 +286,14 @@
           "days": 16,
           "first_spend": "Apr 10",
           "sprint_day": 12
+        },
+        {
+          "name": "2603-078-65 · Biotic · IBS Sufferer · Gut Control · Brightshift · New Concept · B-06",
+          "spend": 1045,
+          "cpa": 104,
+          "days": 19,
+          "first_spend": "Apr 07",
+          "sprint_day": 9
         }
       ],
       "scalers_list": [
@@ -300,8 +325,8 @@
           "sprint_day": 12
         }
       ],
-      "assess_date": "~1 May",
-      "assess_wks": "~5 wks"
+      "assess_date": "~10 May",
+      "assess_wks": "~6 wks"
     },
     {
       "id": "s4",
@@ -358,8 +383,8 @@
           "sprint_day": 3
         }
       ],
-      "assess_date": "~15 May",
-      "assess_wks": "~5 wks"
+      "assess_date": "~24 May",
+      "assess_wks": "~6 wks"
     }
   ],
   "timing": {
@@ -367,7 +392,7 @@
     "median_early": 4,
     "median_win": 10,
     "pct_d14": 65,
-    "pct_d30": 79,
+    "pct_d30": 91,
     "dist": [
       36,
       29,
@@ -479,5 +504,5 @@
       "bucket": "post"
     }
   ],
-  "assessment_window": 21
+  "assessment_window": 30
 }
