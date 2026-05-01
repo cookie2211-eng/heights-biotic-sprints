@@ -1,467 +1,430 @@
 {
   "threshold": 1000,
-  "assessment_window": 21,
   "sprints": [
     {
       "id": "baseline",
       "label": "Pre-sprint baseline",
-      "sublabel": "Sep\u2013Oct 2025 \u00b7 normalised to 12-day equivalent",
+      "sublabel": "Sep–Oct 2025 · normalised to 12-day equivalent",
+      "note": "Only meaningful Biotic spend before 2026. Ran at ~25% of sprint-era scale — shows a lower-investment pipeline, not a direct like-for-like.",
+      "unit_days": 12,
       "start": "2025-09-01",
       "end": "2025-10-31",
       "days": 61,
-      "note": "Only meaningful Biotic spend before 2026. Ran at ~25% of sprint-era scale \u2014 shows a lower-investment pipeline, not a direct like-for-like.",
       "unit": 12,
       "stats": {
-        "ads": 108,
-        "ads_norm": 21,
-        "spend": 114695,
-        "spend_norm": 22563,
-        "winners": 22,
-        "winners_norm": 4.3,
-        "hit_rate": 20.4,
-        "cpa": 114,
-        "near_good": 8,
-        "near_weak": 32,
-        "cold": 46
+        "ads": 97,
+        "ads_norm": 19.0,
+        "spend": 108973,
+        "spend_norm": 21437,
+        "winners": 17,
+        "winners_norm": 3.3,
+        "hit_rate": 17.5,
+        "cpa": 113,
+        "near_good": 7,
+        "near_weak": 26,
+        "cold": 47
       },
       "winners_list": []
     },
     {
       "id": "s1",
       "label": "Sprint 1 (#5.26)",
-      "sublabel": "Mon 2 Mar \u2192 Fri 13 Mar \u00b7 12 days",
+      "sublabel": "Mon 2 Mar → Fri 13 Mar · 12 days",
       "start": "2026-03-02",
       "end": "2026-03-13",
       "days": 12,
       "note": "",
-      "assess_date": "~3 Apr",
-      "assess_wks": "~5 wks",
       "unit": 12,
       "stats": {
-        "ads": 120,
-        "ads_norm": 120,
-        "spend": 60875,
-        "spend_norm": 60875,
-        "winners": 10,
-        "winners_norm": 10.0,
-        "hit_rate": 8.3,
-        "cpa": 241,
+        "ads": 123,
+        "ads_norm": 123.0,
+        "spend": 65440,
+        "spend_norm": 65440,
+        "winners": 11,
+        "winners_norm": 11.0,
+        "hit_rate": 8.9,
+        "cpa": 238,
         "near_good": 0,
-        "near_weak": 31,
-        "cold": 79
+        "near_weak": 29,
+        "cold": 83
       },
       "winners_list": [
         {
-          "name": "Partnership \u00b7 Spencer Matthews Ambassador Podcast \u00b7 Greatness Hook 3",
-          "spend": 15008,
-          "cpa": 177,
+          "name": "Partnership · Spencer Matthews Ambassador Podcast · Greatness Hook 3",
+          "spend": 16171,
+          "cpa": 180,
           "days": 44
         },
         {
-          "name": "Everyone thinks I'm a hermit \u00b7 Biotic\u207a \u00b7 GUTCONTROL",
-          "spend": 6578,
-          "cpa": 193,
+          "name": "Everyone thinks I'm a hermit · Biotic⁺ · GUTCONTROL",
+          "spend": 6982,
+          "cpa": 194,
           "days": 44
         },
         {
-          "name": "The foods you\u2019ve stopped eating \u00b7 Biotic\u207a \u00b7 PERMFEAR",
+          "name": "The foods you’ve stopped eating · Biotic⁺ · NORMAL",
           "spend": 2883,
           "cpa": 222,
           "days": 44
         },
         {
-          "name": "AMA \u00b7 The world has shrunk woman V1 \u00b7 Biotic\u207a",
+          "name": "AMA · The world has shrunk woman V1 · Biotic⁺",
           "spend": 1869,
           "cpa": 208,
           "days": 44
         },
         {
-          "name": "Spencer Matthews Ambassador Podcast \u00b7 Greatness Hook 3 \u00b7 Biotic\u207a",
+          "name": "AMA · The world has shrunk man V1 · Biotic⁺",
+          "spend": 1606,
+          "cpa": 321,
+          "days": 44
+        },
+        {
+          "name": "Don’t let your gut control your life · v1 · Biotic⁺",
+          "spend": 1459,
+          "cpa": 122,
+          "days": 53
+        },
+        {
+          "name": "Spencer Matthews Ambassador Podcast · Greatness Hook 3 · Biotic⁺",
           "spend": 1428,
           "cpa": 204,
           "days": 46
         },
         {
-          "name": "AMA \u00b7 The world has shrunk man V1 \u00b7 Biotic\u207a",
-          "spend": 1323,
-          "cpa": 331,
-          "days": 44
-        },
-        {
-          "name": "Spencer stitch \u00b7 V2 Hook 2 \u00b7 Biotic\u207a",
+          "name": "Spencer stitch · V2 Hook 2 · Biotic⁺",
           "spend": 1072,
           "cpa": 134,
           "days": 55
         },
         {
-          "name": "Spencer Matthews Ambassador Podcast \u00b7 Fatherhood Hook 3 \u00b7 Biotic\u207a",
+          "name": "Spencer Matthews Ambassador Podcast · Fatherhood Hook 3 · Biotic⁺",
           "spend": 1067,
           "cpa": 534,
           "days": 46
         },
         {
-          "name": "Spencer nutritionist advice \u00b7 Hook 2 Narrative 1 \u00b7 Biotic\u207a",
+          "name": "Spencer nutritionist advice · Hook 2 Narrative 1 · Biotic⁺",
           "spend": 1010,
           "cpa": 202,
           "days": 49
         },
         {
-          "name": "AMA \u00b7 Fear this is permanent woman V1 \u00b7 Biotic\u207a",
+          "name": "AMA · Fear this is permanent woman V1 · Biotic⁺",
           "spend": 1008,
           "cpa": 202,
           "days": 44
         }
-      ]
+      ],
+      "assess_date": "~3 Apr",
+      "assess_wks": "~5 wks"
     },
     {
       "id": "s2",
       "label": "Sprint 2 (B-06)",
-      "sublabel": "Mon 16 Mar \u2192 Thu 27 Mar \u00b7 12 days",
+      "sublabel": "Mon 16 Mar → Thu 27 Mar · 12 days",
       "start": "2026-03-16",
       "end": "2026-03-27",
       "days": 12,
       "note": "New focal naming convention from this sprint",
-      "assess_date": "~17 Apr",
-      "assess_wks": "~5 wks",
       "unit": 12,
       "stats": {
-        "ads": 109,
-        "ads_norm": 109,
-        "spend": 42865,
-        "spend_norm": 42865,
-        "winners": 10,
-        "winners_norm": 10.0,
-        "hit_rate": 9.2,
-        "cpa": 241,
+        "ads": 50,
+        "ads_norm": 50.0,
+        "spend": 26773,
+        "spend_norm": 26773,
+        "winners": 5,
+        "winners_norm": 5.0,
+        "hit_rate": 10.0,
+        "cpa": 231,
         "near_good": 1,
-        "near_weak": 25,
-        "cold": 73
+        "near_weak": 13,
+        "cold": 31
       },
       "winners_list": [
         {
-          "name": "Biotic \u00b7 IBS Sufferer \u00b7 Gut Control \u00b7 Brightshift \u00b7 New Concept \u00b7 B-06",
-          "spend": 4754,
-          "cpa": 226,
-          "days": 30
-        },
-        {
-          "name": "Biotic \u00b7 IBS Sufferer \u00b7 Gut Control \u00b7 Internal \u00b7 New Concept \u00b7 B-06",
-          "spend": 4499,
-          "cpa": 250,
-          "days": 30
-        },
-        {
-          "name": "Matt Willis - Biotic - Second Brain 50s Version Hook 1 \u00b7 Hook 1 \u00b7 Biotic\u207a",
-          "spend": 4393,
-          "cpa": 220,
+          "name": "Matt Willis - Biotic - Second Brain 50s Version Hook 1 · Hook 1 · Biotic⁺",
+          "spend": 4952,
+          "cpa": 236,
           "days": 37
         },
         {
-          "name": "Ben Shephard Ambassador Biotic \u00b7 Problem + Agitation 2 Hook 4 \u00b7 Biotic\u207a",
-          "spend": 2244,
-          "cpa": 173,
+          "name": "Ben Shephard Ambassador Biotic · Problem + Agitation 2 Hook 4 · Biotic⁺",
+          "spend": 2567,
+          "cpa": 171,
           "days": 37
         },
         {
-          "name": "Man - Hook 1 \u00b7 Biotic\u207a \u00b7 GUTCONTROL",
+          "name": "Man - Hook 1 · Biotic⁺ · GUTCONTROL",
           "spend": 2100,
           "cpa": 233,
           "days": 38
         },
         {
-          "name": "Biotic \u00b7 Supplement Sceptic \u00b7 Internal \u00b7 Iteration \u00b7 B-06",
-          "spend": 2073,
-          "cpa": 691,
-          "days": 30
-        },
-        {
-          "name": "Biotic \u00b7 Long Term Sufferer \u00b7 Gut Control \u00b7 Internal \u00b7 Iteration \u00b7 B-06",
-          "spend": 1640,
-          "cpa": 117,
-          "days": 30
-        },
-        {
-          "name": "Matt Willis - Biotic - Second Brain 50s Version  Hook 2 \u00b7 Hook 2 \u00b7 Biotic\u207a",
+          "name": "Matt Willis - Biotic - Second Brain 50s Version  Hook 2 · Hook 2 · Biotic⁺",
           "spend": 1463,
           "cpa": 209,
           "days": 37
         },
         {
-          "name": "Biotic \u00b7 Internal \u00b7 Iteration \u00b7 B-06",
-          "spend": 1327,
-          "cpa": 190,
-          "days": 30
-        },
-        {
-          "name": "Biotic \u00b7 IBS Sufferer \u00b7 Gut Control \u00b7 Brightshift \u00b7 New Concept \u00b7 B-06",
-          "spend": 1295,
-          "cpa": 259,
-          "days": 30
+          "name": "Matt Willis - Biotic - Second Brain 50s Version  Hook 3 · Hook 3 · Biotic⁺",
+          "spend": 1064,
+          "cpa": 177,
+          "days": 37
         }
-      ]
+      ],
+      "assess_date": "~17 Apr",
+      "assess_wks": "~5 wks"
     },
     {
       "id": "s3",
       "label": "Sprint 3 (B-03)",
-      "sublabel": "Mon 30 Mar \u2192 Fri 10 Apr \u00b7 12 days",
+      "sublabel": "Mon 30 Mar → Fri 10 Apr · 12 days",
       "start": "2026-03-30",
       "end": "2026-04-10",
       "days": 12,
       "note": "",
-      "assess_date": "~1 May",
-      "assess_wks": "~5 wks",
       "unit": 12,
       "stats": {
-        "ads": 204,
-        "ads_norm": 204,
-        "spend": 67473,
-        "spend_norm": 67473,
-        "winners": 19,
-        "winners_norm": 19.0,
-        "hit_rate": 9.3,
-        "cpa": 196,
-        "near_good": 4,
-        "near_weak": 41,
+        "ads": 205,
+        "ads_norm": 205.0,
+        "spend": 79055,
+        "spend_norm": 79055,
+        "winners": 17,
+        "winners_norm": 17.0,
+        "hit_rate": 8.3,
+        "cpa": 193,
+        "near_good": 6,
+        "near_weak": 42,
         "cold": 140
       },
       "winners_list": [
         {
-          "name": "Spencer Matthews & Oli Patrick - Sell it to me \u00b7 Stripped back - Angle 2 Hook...",
-          "spend": 3490,
-          "cpa": 152,
+          "name": "Spencer Matthews & Oli Patrick - Sell it to me · Stripped back - Angle 2 Hook 2 ",
+          "spend": 4397,
+          "cpa": 137,
           "days": 26
         },
         {
-          "name": "Biotic \u00b7 Long Term Sufferer \u00b7 Back to Normal \u00b7 Brightshift \u00b7 New Concept \u00b7 B-03",
+          "name": "Ben Shephard Ambassador Biotic · Problem + Agitation 2 Hook 4 · Biotic⁺",
+          "spend": 3547,
+          "cpa": 107,
+          "days": 23
+        },
+        {
+          "name": "Ben Shephard Ambassador Biotic · Problem + Agitation 2 Hook 4 · Biotic⁺",
+          "spend": 3092,
+          "cpa": 129,
+          "days": 23
+        },
+        {
+          "name": "Partnership · Spencer Matthews Ambassador Podcast · Greatness Hook 3",
+          "spend": 3061,
+          "cpa": 161,
+          "days": 17
+        },
+        {
+          "name": "Biotic · Long Term Sufferer · normal · Brightshift · New Concept · B-03",
           "spend": 2790,
           "cpa": 254,
           "days": 16
         },
         {
-          "name": "Ben Shephard Ambassador Biotic \u00b7 Problem + Agitation 2 Hook 4 \u00b7 Biotic\u207a",
-          "spend": 2559,
-          "cpa": 95,
-          "days": 24
-        },
-        {
-          "name": "Ben Shephard Ambassador Biotic \u00b7 Problem + Agitation 2 Hook 4 \u00b7 Biotic\u207a",
-          "spend": 2518,
-          "cpa": 140,
-          "days": 24
-        },
-        {
-          "name": "Partnership \u00b7 Spencer Matthews Ambassador Podcast \u00b7 Greatness Hook 3",
-          "spend": 2514,
-          "cpa": 157,
-          "days": 24
-        },
-        {
-          "name": "Carol x Dan Podcast, Biotic Variation Hook 3 \u00b7 Hook 3 (Cutdown) \u00b7 Biotic\u207a",
-          "spend": 2151,
-          "cpa": 154,
-          "days": 24
-        },
-        {
-          "name": "Carol x Dan Podcast, Biotic Variation Hook 3 \u00b7 Hook 3 (Cutdown) \u00b7 Biotic\u207a",
-          "spend": 2019,
-          "cpa": 155,
-          "days": 24
-        },
-        {
-          "name": "Biotic \u00b7 IBS Sufferer \u00b7 Gut Control \u00b7 Brightshift \u00b7 New Concept \u00b7 B-06",
-          "spend": 1929,
-          "cpa": 161,
+          "name": "Biotic · IBS Sufferer · Gut Control · Brightshift · New Concept · B-06",
+          "spend": 2362,
+          "cpa": 169,
           "days": 19
         },
         {
-          "name": "Carol & Dan Podcast - Biotic (Hook 3 no Broll) \u00b7 (Hook 3 no Broll) \u00b7 Biotic\u207a",
-          "spend": 1724,
-          "cpa": 133,
-          "days": 24
+          "name": "Carol x Dan Podcast, Biotic Variation Hook 3 · Hook 3 (Cutdown) · Biotic⁺",
+          "spend": 2151,
+          "cpa": 154,
+          "days": 23
         },
         {
-          "name": "Biotic \u00b7 Founder HP \u00b7 Brightshift \u00b7 New Concept \u00b7 B-03",
-          "spend": 1486,
-          "cpa": 165,
+          "name": "Biotic · founderhp · Brightshift · New Concept · B-03",
+          "spend": 2127,
+          "cpa": 236,
           "days": 16
         },
         {
-          "name": "Biotic \u00b7 IBS Sufferer \u00b7 Gut Control \u00b7 Internal \u00b7 New Concept \u00b7 B-03",
-          "spend": 1478,
-          "cpa": 134,
+          "name": "Carol x Dan Podcast, Biotic Variation Hook 3 · Hook 3 (Cutdown) · Biotic⁺",
+          "spend": 2019,
+          "cpa": 155,
+          "days": 23
+        },
+        {
+          "name": "Carol & Dan Podcast - Biotic (Hook 3 no Broll) · (Hook 3 no Broll) · Biotic⁺",
+          "spend": 1915,
+          "cpa": 128,
+          "days": 23
+        },
+        {
+          "name": "Biotic · IBS Sufferer · Gut Control · Internal · New Concept · B-03",
+          "spend": 1834,
+          "cpa": 141,
           "days": 16
         },
         {
-          "name": "Partnership \u00b7 Spencer Matthews Ambassador Podcast \u00b7 Greatness Hook 3",
+          "name": "Biotic · Long Term Sufferer · normal · Brightshift · New Concept · B-03",
+          "spend": 1809,
+          "cpa": 226,
+          "days": 16
+        },
+        {
+          "name": "Partnership · Spencer Matthews Ambassador Podcast · Greatness Hook 3",
           "spend": 1394,
           "cpa": 349,
-          "days": 24
+          "days": 16
         },
         {
-          "name": "Rylan x Dan podcast \u00b7 Angle 1 Hook 3 \u00b7 Biotic\u207a",
-          "spend": 1277,
-          "cpa": 98,
-          "days": 24
-        },
-        {
-          "name": "Street Voxpop - Biotic - Dan Pitching Mashup - Non-Customer \u00b7 Hook 1 \u00b7 Biotic\u207a",
+          "name": "Street Voxpop - Biotic - Dan Pitching Mashup - Non-Customer · Hook 1 · Biotic⁺",
           "spend": 1184,
           "cpa": 237,
-          "days": 24
+          "days": 23
         },
         {
-          "name": "Biotic \u00b7 Founder HP \u00b7 Brightshift \u00b7 New Concept \u00b7 B-03",
+          "name": "Biotic · founderhp · Brightshift · New Concept · B-03",
           "spend": 1175,
           "cpa": 392,
           "days": 16
         },
         {
-          "name": "Ben Shephard Ambassador Biotic \u00b7 Problem + Agitation 2 Hook 3 \u00b7 Biotic\u207a",
+          "name": "Ben Shephard Ambassador Biotic · Problem + Agitation 2 Hook 3 · Biotic⁺",
           "spend": 1119,
           "cpa": 186,
           "days": 24
         },
         {
-          "name": "Biotic \u00b7 IBS Sufferer \u00b7 Gut Control \u00b7 Internal \u00b7 New Concept \u00b7 B-06",
-          "spend": 1094,
-          "cpa": 156,
-          "days": 24
-        },
-        {
-          "name": "Rylan x Dan podcast \u00b7 Angle 1 Hook 3 \u00b7 Biotic\u207a",
+          "name": "Rylan x Dan podcast · Angle 1 Hook 3 · Biotic⁺",
           "spend": 1038,
           "cpa": 519,
-          "days": 24
-        },
-        {
-          "name": "Rylan Biotic DR \u00b7 Long Hook 1 \u00b7 Biotic\u207a",
-          "spend": 1032,
-          "cpa": 206,
-          "days": 26
+          "days": 23
         }
-      ]
+      ],
+      "assess_date": "~1 May",
+      "assess_wks": "~5 wks"
     },
     {
       "id": "s4",
       "label": "Sprint 4 (B-04)",
-      "sublabel": "Mon 13 Apr \u2192 Thu 24 Apr \u00b7 12 days",
+      "sublabel": "Mon 13 Apr → Thu 24 Apr · 12 days",
       "start": "2026-04-13",
       "end": "2026-04-24",
       "days": 12,
       "note": "",
-      "assess_date": "~15 May",
-      "assess_wks": "~5 wks",
       "unit": 12,
       "stats": {
-        "ads": 63,
-        "ads_norm": 63,
-        "spend": 30184,
-        "spend_norm": 30184,
+        "ads": 61,
+        "ads_norm": 61.0,
+        "spend": 38282,
+        "spend_norm": 38282,
         "winners": 8,
         "winners_norm": 8.0,
-        "hit_rate": 12.7,
-        "cpa": 161,
-        "near_good": 3,
+        "hit_rate": 13.1,
+        "cpa": 156,
+        "near_good": 4,
         "near_weak": 5,
-        "cold": 47
+        "cold": 44
       },
       "winners_list": [
         {
-          "name": "Matt Willis - Biotic - Second Brain 50s Version Hook 1 \u00b7 Hook 1 \u00b7 Biotic\u207a",
-          "spend": 6331,
-          "cpa": 317,
-          "days": 12
-        },
-        {
-          "name": "Biotic \u00b7 Health Optimiser \u00b7 Nothing Works \u00b7 Brightshift \u00b7 Iteration \u00b7 B-03",
-          "spend": 6068,
-          "cpa": 110,
+          "name": "Biotic · Health Optimiser · nothingworks · Brightshift · Iteration · B-03",
+          "spend": 10076,
+          "cpa": 111,
           "days": 11
         },
         {
-          "name": "Partnership \u00b7 Spencer Matthews Ambassador Podcast \u00b7 Greatness Hook 3",
-          "spend": 5434,
-          "cpa": 170,
+          "name": "Partnership · Spencer Matthews Ambassador Podcast · Greatness Hook 3",
+          "spend": 6537,
+          "cpa": 192,
           "days": 12
         },
         {
-          "name": "Matt Willis - Biotic - Second Brain 50s Version  Hook 3 \u00b7 Hook 3 \u00b7 Biotic\u207a",
-          "spend": 1667,
-          "cpa": 238,
+          "name": "Matt Willis - Biotic - Second Brain 50s Version Hook 1 · Hook 1 · Biotic⁺",
+          "spend": 6352,
+          "cpa": 318,
           "days": 12
         },
         {
-          "name": "Don\u2019t let your gut control your life \u00b7 v1 \u00b7 Biotic\u207a",
-          "spend": 1308,
-          "cpa": 163,
+          "name": "Matt Willis - Biotic - Second Brain 50s Version Hook 1 · Hook 1 · Biotic⁺",
+          "spend": 2005,
+          "cpa": 154,
+          "days": 2
+        },
+        {
+          "name": "Matt Willis - Biotic - Second Brain 50s Version  Hook 3 · Hook 3 · Biotic⁺",
+          "spend": 1671,
+          "cpa": 239,
           "days": 12
         },
         {
-          "name": "Biotic \u00b7 Health Optimiser \u00b7 Gut Control \u00b7 Internal \u00b7 Iteration \u00b7 B-03",
-          "spend": 1250,
-          "cpa": 125,
+          "name": "Biotic · Health Optimiser · Gut Control · Internal · Iteration · B-03",
+          "spend": 1397,
+          "cpa": 140,
           "days": 11
         },
         {
-          "name": "Ben Shephard Ambassador Biotic \u00b7 Problem + Agitation 2 Hook 4 \u00b7 Biotic\u207a",
+          "name": "Don’t let your gut control your life · v1 · Biotic⁺",
+          "spend": 1318,
+          "cpa": 165,
+          "days": 12
+        },
+        {
+          "name": "Ben Shephard Ambassador Biotic · Problem + Agitation 2 Hook 4 · Biotic⁺",
           "spend": 1219,
           "cpa": 609,
           "days": 12
-        },
-        {
-          "name": "Matt Willis - Biotic - Second Brain 50s Version Hook 1 \u00b7 Hook 1 \u00b7 Biotic\u207a",
-          "spend": 1177,
-          "cpa": 131,
-          "days": 2
         }
-      ]
+      ],
+      "assess_date": "~15 May",
+      "assess_wks": "~5 wks"
     }
   ],
   "timing": {
-    "total_winners": 119,
+    "total_winners": 128,
     "median_early": 4,
-    "median_win": 11,
-    "pct_d14": 68,
-    "pct_d21": 82,
-    "pct_d30": 94,
+    "median_win": 10,
+    "pct_d14": 67,
+    "pct_d30": 79,
     "dist": [
-      32,
-      36,
-      15,
+      34,
+      34,
       12,
-      4,
+      13,
+      5,
       2
     ],
     "threshold": 1000,
     "early_threshold": 300
   },
   "lifecycle": {
-    "n_winners": 64,
+    "n_winners": 71,
     "floor": 1500,
-    "total_avg": 4192,
-    "pre30_pct": 84,
-    "post30_pct": 16,
+    "total_avg": 4161,
+    "pre30_pct": 88,
+    "post30_pct": 12,
     "band_avgs": [
-      865,
-      1054,
-      815,
-      781,
-      535,
-      96,
-      8,
-      32
+      985,
+      1051,
+      872,
+      737,
+      415,
+      66,
+      34,
+      0
     ],
-    "d0_14_pct": 46,
-    "d14_30_pct": 38,
-    "d30plus_pct": 16,
-    "d0_14_avg": 1919,
-    "d14_30_avg": 1596,
-    "d30plus_avg": 678
+    "d0_14_pct": 49,
+    "d14_30_pct": 39,
+    "d30plus_pct": 12,
+    "d0_14_avg": 2036,
+    "d14_30_avg": 1609,
+    "d30plus_avg": 516
   },
   "chart": [
     {
       "label": "Dec 29",
-      "n": 10,
+      "n": 14,
       "bucket": "baseline"
     },
     {
@@ -476,17 +439,17 @@
     },
     {
       "label": "Feb 02",
-      "n": 102,
+      "n": 92,
       "bucket": "baseline"
     },
     {
       "label": "Feb 09",
-      "n": 8,
+      "n": 12,
       "bucket": "baseline"
     },
     {
       "label": "Feb 16",
-      "n": 90,
+      "n": 88,
       "bucket": "baseline"
     },
     {
@@ -496,12 +459,12 @@
     },
     {
       "label": "Mar 02",
-      "n": 63,
+      "n": 67,
       "bucket": "s1"
     },
     {
       "label": "Mar 09",
-      "n": 103,
+      "n": 101,
       "bucket": "s1"
     },
     {
@@ -511,28 +474,34 @@
     },
     {
       "label": "Mar 23",
-      "n": 68,
+      "n": 66,
       "bucket": "s2"
     },
     {
       "label": "Mar 30",
-      "n": 100,
+      "n": 95,
       "bucket": "s3"
     },
     {
       "label": "Apr 06",
-      "n": 104,
+      "n": 112,
       "bucket": "s3"
     },
     {
       "label": "Apr 13",
-      "n": 55,
+      "n": 53,
       "bucket": "s4"
     },
     {
       "label": "Apr 20",
       "n": 8,
       "bucket": "s4"
+    },
+    {
+      "label": "Apr 27",
+      "n": 61,
+      "bucket": "post"
     }
-  ]
+  ],
+  "assessment_window": 21
 }
