@@ -275,24 +275,29 @@ function render(DATA) {
     }
 
     // Assessment status
+    // Assessment status — data-driven (see vitals-index.html for the same logic).
     let assess_class, assess_label, assess_meta, badge;
-    // Biotic: assess dates ~Apr 12 (S1), ~Apr 26 (S2), ~May 10 (S3), ~May 24 (S4).
-    // The label "as of <data_end>" is data-driven (see pipeline_html below).
-    if (sprint_num <= 2) {
+    if (st.scalers_complete) {
       assess_class = 'done';
       assess_label = 'Full assessment complete · 30d window closed ' + sp.assess_date;
-      assess_meta = 'Sprint length + 30 days = ' + sp.assess_wks + ' from start · ' + st.winners + ' confirmed winners · figures are final';
+      assess_meta = 'Sprint length + 30 days = ' + sp.assess_wks + ' from start · ' + st.winners + ' confirmed winners · ' + st.scalers + ' scalers · figures are final';
       badge = '';
-    } else if (sprint_num === 3) {
+    } else if (st.primary_complete) {
       assess_class = 'partial';
+      assess_label = 'Winners final · 30d window closed · scalers still settling';
+      assess_meta = st.winners + ' confirmed winners · ' + st.scalers + ' scalers so far (final scaler count ~' + sp.assess_wks + ' after sprint start) · CPA ' + fmt(st.cpa);
+      badge = '<span class="badge badge-amber">scalers provisional</span>';
+    } else if (st.primary_progress != null && st.primary_progress >= 0.3) {
+      const _pct = Math.round((st.primary_progress || 0) * 100);
+      assess_class = 'pending';
       assess_label = 'Near-complete · 30d window closes ~' + sp.assess_date + ' · ' + sp.assess_wks + ' from sprint start';
-      assess_meta = st.near_good + ' near-winners with good CPA still in window · realistic final count ' + (st.winners+2) + '–' + (st.winners+st.near_good) + ' winners · 5 days remaining in window · CPA ' + fmt(st.cpa);
-      badge = '<span class="badge badge-amber">near-complete</span>';
+      assess_meta = '30d window ' + _pct + '% accumulated · ' + st.near_good + ' near-winners with good CPA still in window · realistic final count ' + (st.winners + Math.min(2, st.near_good)) + '–' + (st.winners + st.near_good) + ' winners · CPA ' + fmt(st.cpa);
+      badge = '<span class="badge badge-amber">window open</span>';
     } else {
       assess_class = 'pending';
       assess_label = 'Full assessment complete: ~' + sp.assess_date + ' · ' + sp.assess_wks + ' from sprint start';
-      assess_meta = 'Data window open · early signals emerging';
-      badge = '<span class="badge badge-gray">early data</span>';
+      assess_meta = 'Most ads only days old · current ' + st.hit_rate + '% hit rate not yet meaningful';
+      badge = '<span class="badge badge-gray">too early to assess</span>';
     }
 
     const note_html = sp.note ? `<div style="margin-bottom:10px"><span class="pill">${sp.note}</span></div>` : '';
