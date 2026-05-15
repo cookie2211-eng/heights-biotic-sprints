@@ -276,8 +276,8 @@ function render(DATA) {
 
     // Assessment status
     let assess_class, assess_label, assess_meta, badge;
-    // Biotic: assess dates Apr 3 (S1), Apr 17 (S2), May 1 (S3), May 15 (S4)
-    // Data cutoff Apr 26 — S1 and S2 are closed, S3 window open, S4 pending
+    // Biotic: assess dates ~Apr 12 (S1), ~Apr 26 (S2), ~May 10 (S3), ~May 24 (S4).
+    // The label "as of <data_end>" is data-driven (see pipeline_html below).
     if (sprint_num <= 2) {
       assess_class = 'done';
       assess_label = 'Full assessment complete · 30d window closed ' + sp.assess_date;
