@@ -5,31 +5,31 @@
     {
       "id": "baseline",
       "label": "Pre-sprint baseline",
-      "sublabel": "Sep–Oct 2025 · normalised to 12-day equivalent",
-      "note": "Only meaningful Biotic spend before 2026. Ran at ~25% of sprint-era scale — shows a lower-investment pipeline, not a direct like-for-like.",
-      "unit_days": 12,
-      "start": "2025-09-01",
+      "sublabel": "Jul–Oct 2025 · normalised to 2-week equivalent",
+      "note": "Pre-sprint Biotic baseline. Excludes Nov–Dec 2025 peak. Ran at sub-sprint scale on volume — winner-rate comparison is the meaningful read, not absolute counts.",
+      "unit_days": 14,
+      "start": "2025-07-01",
       "end": "2025-10-31",
-      "days": 61,
-      "unit": 12,
+      "days": 123,
+      "unit": 14,
       "stats": {
-        "ads": 72,
-        "ads_norm": 14.0,
-        "spend": 89563,
-        "spend_norm": 17619,
-        "winners": 14,
-        "winners_norm": 2.8,
-        "hit_rate": 19.4,
-        "scalers": 7,
-        "scalers_norm": 1.4,
+        "ads": 92,
+        "ads_norm": 10.0,
+        "spend": 99071,
+        "spend_norm": 11276,
+        "winners": 16,
+        "winners_norm": 1.8,
+        "hit_rate": 17.4,
+        "scalers": 8,
+        "scalers_norm": 0.9,
         "scalers_complete": true,
         "primary_complete": true,
         "primary_progress": 6.5,
         "scaler_bar": 2000,
-        "cpa": 109,
-        "near_good": 7,
-        "near_weak": 21,
-        "cold": 30
+        "cpa": 113,
+        "near_good": 8,
+        "near_weak": 25,
+        "cold": 43
       },
       "winners_list": []
     },
@@ -43,23 +43,23 @@
       "note": "",
       "unit": 12,
       "stats": {
-        "ads": 107,
-        "ads_norm": 107.0,
-        "spend": 43397,
-        "spend_norm": 43397,
-        "winners": 8,
-        "winners_norm": 8.0,
-        "hit_rate": 7.5,
+        "ads": 103,
+        "ads_norm": 103.0,
+        "spend": 41435,
+        "spend_norm": 41435,
+        "winners": 7,
+        "winners_norm": 7.0,
+        "hit_rate": 6.8,
         "scalers": 2,
         "scalers_norm": 2.0,
         "scalers_complete": true,
         "primary_complete": true,
         "primary_progress": 2.07,
         "scaler_bar": 2000,
-        "cpa": 261,
+        "cpa": 271,
         "near_good": 0,
         "near_weak": 26,
-        "cold": 73
+        "cold": 70
       },
       "winners_list": [
         {
@@ -93,14 +93,6 @@
           "days": 62,
           "first_spend": "Mar 13",
           "sprint_day": 12
-        },
-        {
-          "name": "Don’t let your gut control your life · v1 · Biotic⁺",
-          "spend": 1459,
-          "cpa": 122,
-          "days": 71,
-          "first_spend": "Mar 04",
-          "sprint_day": 3
         },
         {
           "name": "Spencer stitch · V2 Hook 2 · Biotic⁺",
@@ -160,25 +152,41 @@
       "note": "New focal naming convention from this sprint",
       "unit": 12,
       "stats": {
-        "ads": 72,
-        "ads_norm": 72.0,
-        "spend": 17954,
-        "spend_norm": 17954,
-        "winners": 2,
-        "winners_norm": 2.0,
-        "hit_rate": 2.8,
-        "scalers": 2,
-        "scalers_norm": 2.0,
+        "ads": 130,
+        "ads_norm": 130.0,
+        "spend": 39497,
+        "spend_norm": 39497,
+        "winners": 7,
+        "winners_norm": 7.0,
+        "hit_rate": 5.4,
+        "scalers": 5,
+        "scalers_norm": 5.0,
         "scalers_complete": true,
         "primary_complete": true,
         "primary_progress": 1.6,
         "scaler_bar": 2000,
-        "cpa": 249,
+        "cpa": 258,
         "near_good": 1,
-        "near_weak": 14,
-        "cold": 55
+        "near_weak": 21,
+        "cold": 101
       },
       "winners_list": [
+        {
+          "name": "2603-058-05 · Biotic · IBS Sufferer · Gut Control · Brightshift · New Concept · B-06",
+          "spend": 5129,
+          "cpa": 233,
+          "days": 47,
+          "first_spend": "Mar 28",
+          "sprint_day": 12
+        },
+        {
+          "name": "2603-037-15 · Biotic · IBS Sufferer · Gut Control · Internal · New Concept · B-06",
+          "spend": 4886,
+          "cpa": 244,
+          "days": 47,
+          "first_spend": "Mar 28",
+          "sprint_day": 12
+        },
         {
           "name": "2603-048-05 · Biotic · Long Term Sufferer · Gut Control · Internal · Iteration · B-06",
           "spend": 4449,
@@ -188,15 +196,57 @@
           "sprint_day": 12
         },
         {
+          "name": "2603-040-07 · Biotic · Supplement Sceptic · Internal · Iteration · B-06",
+          "spend": 2257,
+          "cpa": 564,
+          "days": 47,
+          "first_spend": "Mar 28",
+          "sprint_day": 12
+        },
+        {
           "name": "Man - Hook 1 · Biotic⁺ · GUTCONTROL",
           "spend": 2100,
           "cpa": 233,
           "days": 56,
           "first_spend": "Mar 19",
           "sprint_day": 4
+        },
+        {
+          "name": "2603-047-04 · Biotic · Internal · Iteration · B-06",
+          "spend": 1329,
+          "cpa": 190,
+          "days": 47,
+          "first_spend": "Mar 28",
+          "sprint_day": 12
+        },
+        {
+          "name": "2603-058-07 · Biotic · IBS Sufferer · Gut Control · Brightshift · New Concept · B-06",
+          "spend": 1301,
+          "cpa": 260,
+          "days": 47,
+          "first_spend": "Mar 28",
+          "sprint_day": 12
         }
       ],
       "scalers_list": [
+        {
+          "name": "2603-058-05 · Biotic · IBS Sufferer · Gut Control · Brightshift · New Concept · B-06",
+          "spend": 5129,
+          "spend_6w": 5129,
+          "cpa": 233,
+          "days": 47,
+          "first_spend": "Mar 28",
+          "sprint_day": 12
+        },
+        {
+          "name": "2603-037-15 · Biotic · IBS Sufferer · Gut Control · Internal · New Concept · B-06",
+          "spend": 4886,
+          "spend_6w": 4886,
+          "cpa": 244,
+          "days": 47,
+          "first_spend": "Mar 28",
+          "sprint_day": 12
+        },
         {
           "name": "2603-048-05 · Biotic · Long Term Sufferer · Gut Control · Internal · Iteration · B-06",
           "spend": 4449,
@@ -204,6 +254,15 @@
           "cpa": 185,
           "days": 48,
           "first_spend": "Mar 27",
+          "sprint_day": 12
+        },
+        {
+          "name": "2603-040-07 · Biotic · Supplement Sceptic · Internal · Iteration · B-06",
+          "spend": 2257,
+          "spend_6w": 2257,
+          "cpa": 564,
+          "days": 47,
+          "first_spend": "Mar 28",
           "sprint_day": 12
         },
         {
@@ -231,8 +290,8 @@
       "stats": {
         "ads": 110,
         "ads_norm": 110.0,
-        "spend": 39503,
-        "spend_norm": 39503,
+        "spend": 39505,
+        "spend_norm": 39505,
         "winners": 7,
         "winners_norm": 7.0,
         "hit_rate": 6.4,
@@ -468,7 +527,7 @@
   "chart": [
     {
       "label": "Dec 29",
-      "n": 13,
+      "n": 10,
       "bucket": "baseline"
     },
     {
@@ -478,12 +537,12 @@
     },
     {
       "label": "Feb 02",
-      "n": 40,
+      "n": 48,
       "bucket": "baseline"
     },
     {
       "label": "Feb 09",
-      "n": 12,
+      "n": 8,
       "bucket": "baseline"
     },
     {
@@ -498,22 +557,22 @@
     },
     {
       "label": "Mar 02",
-      "n": 67,
+      "n": 63,
       "bucket": "s1"
     },
     {
       "label": "Mar 09",
-      "n": 83,
+      "n": 84,
       "bucket": "s1"
     },
     {
       "label": "Mar 16",
-      "n": 31,
+      "n": 30,
       "bucket": "s2"
     },
     {
       "label": "Mar 23",
-      "n": 98,
+      "n": 100,
       "bucket": "s2"
     },
     {
@@ -523,7 +582,7 @@
     },
     {
       "label": "Apr 06",
-      "n": 106,
+      "n": 104,
       "bucket": "s3"
     },
     {
