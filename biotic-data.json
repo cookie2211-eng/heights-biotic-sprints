@@ -160,29 +160,29 @@
       "note": "New focal naming convention from this sprint",
       "unit": 12,
       "stats": {
-        "ads": 40,
-        "ads_norm": 40.0,
-        "spend": 17916,
-        "spend_norm": 17916,
+        "ads": 72,
+        "ads_norm": 72.0,
+        "spend": 17954,
+        "spend_norm": 17954,
         "winners": 2,
         "winners_norm": 2.0,
-        "hit_rate": 5.0,
+        "hit_rate": 2.8,
         "scalers": 2,
         "scalers_norm": 2.0,
         "scalers_complete": true,
         "primary_complete": true,
         "primary_progress": 1.6,
         "scaler_bar": 2000,
-        "cpa": 245,
+        "cpa": 249,
         "near_good": 1,
         "near_weak": 14,
-        "cold": 23
+        "cold": 55
       },
       "winners_list": [
         {
           "name": "2603-048-05 · Biotic · Long Term Sufferer · Gut Control · Internal · Iteration · B-06",
-          "spend": 4431,
-          "cpa": 177,
+          "spend": 4449,
+          "cpa": 185,
           "days": 48,
           "first_spend": "Mar 27",
           "sprint_day": 12
@@ -199,9 +199,9 @@
       "scalers_list": [
         {
           "name": "2603-048-05 · Biotic · Long Term Sufferer · Gut Control · Internal · Iteration · B-06",
-          "spend": 4431,
+          "spend": 4449,
           "spend_6w": 3988,
-          "cpa": 177,
+          "cpa": 185,
           "days": 48,
           "first_spend": "Mar 27",
           "sprint_day": 12
@@ -231,8 +231,8 @@
       "stats": {
         "ads": 110,
         "ads_norm": 110.0,
-        "spend": 38788,
-        "spend_norm": 38788,
+        "spend": 39503,
+        "spend_norm": 39503,
         "winners": 7,
         "winners_norm": 7.0,
         "hit_rate": 6.4,
@@ -242,7 +242,7 @@
         "primary_complete": true,
         "primary_progress": 1.13,
         "scaler_bar": 2000,
-        "cpa": 247,
+        "cpa": 255,
         "near_good": 0,
         "near_weak": 25,
         "cold": 78
@@ -257,20 +257,20 @@
           "sprint_day": 12
         },
         {
+          "name": "2604-103-01 · Biotic · IBS Sufferer · Gut Control · Internal · New Concept · B-03",
+          "spend": 3335,
+          "cpa": 196,
+          "days": 34,
+          "first_spend": "Apr 10",
+          "sprint_day": 12
+        },
+        {
           "name": "2603-078-65 · Biotic · IBS Sufferer · Gut Control · Brightshift · New Concept · B-06",
           "spend": 3255,
           "cpa": 181,
           "days": 37,
           "first_spend": "Apr 07",
           "sprint_day": 9
-        },
-        {
-          "name": "2604-103-01 · Biotic · IBS Sufferer · Gut Control · Internal · New Concept · B-03",
-          "spend": 2838,
-          "cpa": 149,
-          "days": 34,
-          "first_spend": "Apr 10",
-          "sprint_day": 12
         },
         {
           "name": "2604-119-05 · Biotic · Long Term Sufferer · normal · Brightshift · New Concept · B-03",
@@ -316,6 +316,15 @@
           "sprint_day": 12
         },
         {
+          "name": "2604-103-01 · Biotic · IBS Sufferer · Gut Control · Internal · New Concept · B-03",
+          "spend": 3335,
+          "spend_6w": 3335,
+          "cpa": 196,
+          "days": 34,
+          "first_spend": "Apr 10",
+          "sprint_day": 12
+        },
+        {
           "name": "2603-078-65 · Biotic · IBS Sufferer · Gut Control · Brightshift · New Concept · B-06",
           "spend": 3255,
           "spend_6w": 3255,
@@ -323,15 +332,6 @@
           "days": 37,
           "first_spend": "Apr 07",
           "sprint_day": 9
-        },
-        {
-          "name": "2604-103-01 · Biotic · IBS Sufferer · Gut Control · Internal · New Concept · B-03",
-          "spend": 2838,
-          "spend_6w": 2838,
-          "cpa": 149,
-          "days": 34,
-          "first_spend": "Apr 10",
-          "sprint_day": 12
         },
         {
           "name": "2604-119-05 · Biotic · Long Term Sufferer · normal · Brightshift · New Concept · B-03",
@@ -376,8 +376,8 @@
       "stats": {
         "ads": 24,
         "ads_norm": 24.0,
-        "spend": 28174,
-        "spend_norm": 28174,
+        "spend": 29876,
+        "spend_norm": 29876,
         "winners": 2,
         "winners_norm": 2.0,
         "hit_rate": 8.3,
@@ -387,7 +387,7 @@
         "primary_complete": false,
         "primary_progress": 0.67,
         "scaler_bar": 2000,
-        "cpa": 111,
+        "cpa": 112,
         "near_good": 1,
         "near_weak": 0,
         "cold": 21
@@ -395,7 +395,7 @@
       "winners_list": [
         {
           "name": "2604-170-06 · Biotic · Health Optimiser · nothingworks · Brightshift · Iteration · B-03",
-          "spend": 25617,
+          "spend": 27307,
           "cpa": 112,
           "days": 29,
           "first_spend": "Apr 15",
@@ -403,7 +403,7 @@
         },
         {
           "name": "2604-177-04 · Biotic · Health Optimiser · Gut Control · Internal · Iteration · B-03",
-          "spend": 1667,
+          "spend": 1672,
           "cpa": 119,
           "days": 29,
           "first_spend": "Apr 15",
@@ -413,8 +413,8 @@
       "scalers_list": [
         {
           "name": "2604-170-06 · Biotic · Health Optimiser · nothingworks · Brightshift · Iteration · B-03",
-          "spend": 25617,
-          "spend_6w": 25617,
+          "spend": 27307,
+          "spend_6w": 27307,
           "cpa": 112,
           "days": 29,
           "first_spend": "Apr 15",
@@ -426,16 +426,16 @@
     }
   ],
   "timing": {
-    "total_winners": 82,
+    "total_winners": 81,
     "median_early": 4,
     "median_win": 10,
-    "pct_d14": 67,
+    "pct_d14": 68,
     "pct_d30": 90,
     "dist": [
-      35,
-      32,
+      37,
+      31,
       12,
-      11,
+      10,
       9,
       1
     ],
@@ -443,27 +443,27 @@
     "early_threshold": 300
   },
   "lifecycle": {
-    "n_winners": 45,
+    "n_winners": 46,
     "floor": 1500,
-    "total_avg": 4823,
+    "total_avg": 4887,
     "pre30_pct": 85,
-    "post30_pct": 14,
+    "post30_pct": 15,
     "band_avgs": [
-      1035,
       1101,
-      1008,
-      983,
-      550,
-      115,
-      31,
+      1105,
+      988,
+      961,
+      586,
+      113,
+      32,
       0
     ],
-    "d0_14_pct": 44,
-    "d14_30_pct": 41,
-    "d30plus_pct": 14,
-    "d0_14_avg": 2136,
-    "d14_30_avg": 1991,
-    "d30plus_avg": 696
+    "d0_14_pct": 45,
+    "d14_30_pct": 40,
+    "d30plus_pct": 15,
+    "d0_14_avg": 2206,
+    "d14_30_avg": 1949,
+    "d30plus_avg": 732
   },
   "chart": [
     {
@@ -513,7 +513,7 @@
     },
     {
       "label": "Mar 23",
-      "n": 66,
+      "n": 98,
       "bucket": "s2"
     },
     {
@@ -543,7 +543,7 @@
     },
     {
       "label": "May 11",
-      "n": 32,
+      "n": 88,
       "bucket": "post"
     }
   ],
