@@ -290,8 +290,8 @@
       "stats": {
         "ads": 110,
         "ads_norm": 110.0,
-        "spend": 39505,
-        "spend_norm": 39505,
+        "spend": 39506,
+        "spend_norm": 39506,
         "winners": 7,
         "winners_norm": 7.0,
         "hit_rate": 6.4,
@@ -435,8 +435,8 @@
       "stats": {
         "ads": 24,
         "ads_norm": 24.0,
-        "spend": 29876,
-        "spend_norm": 29876,
+        "spend": 30381,
+        "spend_norm": 30381,
         "winners": 2,
         "winners_norm": 2.0,
         "hit_rate": 8.3,
@@ -454,8 +454,8 @@
       "winners_list": [
         {
           "name": "2604-170-06 · Biotic · Health Optimiser · nothingworks · Brightshift · Iteration · B-03",
-          "spend": 27307,
-          "cpa": 112,
+          "spend": 27810,
+          "cpa": 113,
           "days": 29,
           "first_spend": "Apr 15",
           "sprint_day": 3
@@ -472,9 +472,9 @@
       "scalers_list": [
         {
           "name": "2604-170-06 · Biotic · Health Optimiser · nothingworks · Brightshift · Iteration · B-03",
-          "spend": 27307,
-          "spend_6w": 27307,
-          "cpa": 112,
+          "spend": 27810,
+          "spend_6w": 27810,
+          "cpa": 113,
           "days": 29,
           "first_spend": "Apr 15",
           "sprint_day": 3
@@ -504,15 +504,15 @@
   "lifecycle": {
     "n_winners": 46,
     "floor": 1500,
-    "total_avg": 4887,
+    "total_avg": 4930,
     "pre30_pct": 85,
     "post30_pct": 15,
     "band_avgs": [
-      1101,
+      1134,
       1105,
       988,
       961,
-      586,
+      597,
       113,
       32,
       0
@@ -520,9 +520,9 @@
     "d0_14_pct": 45,
     "d14_30_pct": 40,
     "d30plus_pct": 15,
-    "d0_14_avg": 2206,
+    "d0_14_avg": 2239,
     "d14_30_avg": 1949,
-    "d30plus_avg": 732
+    "d30plus_avg": 742
   },
   "chart": [
     {
