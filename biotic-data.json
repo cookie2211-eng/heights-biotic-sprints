@@ -435,8 +435,8 @@
       "stats": {
         "ads": 24,
         "ads_norm": 24.0,
-        "spend": 30381,
-        "spend_norm": 30381,
+        "spend": 32648,
+        "spend_norm": 32648,
         "winners": 2,
         "winners_norm": 2.0,
         "hit_rate": 8.3,
@@ -446,7 +446,7 @@
         "primary_complete": false,
         "primary_progress": 0.67,
         "scaler_bar": 2000,
-        "cpa": 112,
+        "cpa": 114,
         "near_good": 1,
         "near_weak": 0,
         "cold": 21
@@ -454,16 +454,16 @@
       "winners_list": [
         {
           "name": "2604-170-06 · Biotic · Health Optimiser · nothingworks · Brightshift · Iteration · B-03",
-          "spend": 27810,
-          "cpa": 113,
+          "spend": 30056,
+          "cpa": 114,
           "days": 29,
           "first_spend": "Apr 15",
           "sprint_day": 3
         },
         {
           "name": "2604-177-04 · Biotic · Health Optimiser · Gut Control · Internal · Iteration · B-03",
-          "spend": 1672,
-          "cpa": 119,
+          "spend": 1675,
+          "cpa": 120,
           "days": 29,
           "first_spend": "Apr 15",
           "sprint_day": 3
@@ -472,9 +472,9 @@
       "scalers_list": [
         {
           "name": "2604-170-06 · Biotic · Health Optimiser · nothingworks · Brightshift · Iteration · B-03",
-          "spend": 27810,
-          "spend_6w": 27810,
-          "cpa": 113,
+          "spend": 30056,
+          "spend_6w": 30056,
+          "cpa": 114,
           "days": 29,
           "first_spend": "Apr 15",
           "sprint_day": 3
@@ -485,44 +485,44 @@
     }
   ],
   "timing": {
-    "total_winners": 81,
+    "total_winners": 83,
     "median_early": 4,
     "median_win": 10,
-    "pct_d14": 68,
+    "pct_d14": 69,
     "pct_d30": 90,
     "dist": [
-      37,
-      31,
+      39,
+      30,
       12,
       10,
-      9,
+      8,
       1
     ],
     "threshold": 1000,
     "early_threshold": 300
   },
   "lifecycle": {
-    "n_winners": 46,
+    "n_winners": 47,
     "floor": 1500,
-    "total_avg": 4930,
+    "total_avg": 5014,
     "pre30_pct": 85,
     "post30_pct": 15,
     "band_avgs": [
-      1134,
-      1105,
-      988,
-      961,
-      597,
-      113,
-      32,
+      1155,
+      1177,
+      967,
+      941,
+      632,
+      111,
+      31,
       0
     ],
-    "d0_14_pct": 45,
-    "d14_30_pct": 40,
+    "d0_14_pct": 47,
+    "d14_30_pct": 38,
     "d30plus_pct": 15,
-    "d0_14_avg": 2239,
-    "d14_30_avg": 1949,
-    "d30plus_avg": 742
+    "d0_14_avg": 2332,
+    "d14_30_avg": 1908,
+    "d30plus_avg": 774
   },
   "chart": [
     {
@@ -602,7 +602,7 @@
     },
     {
       "label": "May 11",
-      "n": 88,
+      "n": 89,
       "bucket": "post"
     }
   ],
