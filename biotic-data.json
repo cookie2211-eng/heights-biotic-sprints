@@ -435,8 +435,8 @@
       "stats": {
         "ads": 24,
         "ads_norm": 24.0,
-        "spend": 34625,
-        "spend_norm": 34625,
+        "spend": 38850,
+        "spend_norm": 38850,
         "winners": 2,
         "winners_norm": 2.0,
         "hit_rate": 8.3,
@@ -454,16 +454,16 @@
       "winners_list": [
         {
           "name": "2604-170-06 · Biotic · Health Optimiser · nothingworks · Brightshift · Iteration · B-03",
-          "spend": 31986,
-          "cpa": 115,
+          "spend": 36167,
+          "cpa": 116,
           "days": 39,
           "first_spend": "Apr 15",
           "sprint_day": 3
         },
         {
           "name": "2604-177-04 · Biotic · Health Optimiser · Gut Control · Internal · Iteration · B-03",
-          "spend": 1682,
-          "cpa": 120,
+          "spend": 1699,
+          "cpa": 121,
           "days": 39,
           "first_spend": "Apr 15",
           "sprint_day": 3
@@ -472,9 +472,9 @@
       "scalers_list": [
         {
           "name": "2604-170-06 · Biotic · Health Optimiser · nothingworks · Brightshift · Iteration · B-03",
-          "spend": 31986,
-          "spend_6w": 31986,
-          "cpa": 115,
+          "spend": 36167,
+          "spend_6w": 33396,
+          "cpa": 116,
           "days": 39,
           "first_spend": "Apr 15",
           "sprint_day": 3
@@ -485,16 +485,16 @@
     }
   ],
   "timing": {
-    "total_winners": 84,
+    "total_winners": 85,
     "median_early": 4,
     "median_win": 10,
     "pct_d14": 69,
-    "pct_d30": 90,
+    "pct_d30": 91,
     "dist": [
       38,
-      31,
+      32,
       12,
-      10,
+      9,
       8,
       1
     ],
@@ -502,27 +502,27 @@
     "early_threshold": 300
   },
   "lifecycle": {
-    "n_winners": 47,
+    "n_winners": 48,
     "floor": 1500,
-    "total_avg": 5081,
-    "pre30_pct": 84,
-    "post30_pct": 16,
+    "total_avg": 5100,
+    "pre30_pct": 83,
+    "post30_pct": 17,
     "band_avgs": [
-      1155,
-      1204,
-      967,
-      941,
-      673,
-      111,
+      1140,
+      1201,
+      953,
+      921,
+      689,
+      166,
       31,
       0
     ],
     "d0_14_pct": 46,
-    "d14_30_pct": 38,
-    "d30plus_pct": 16,
-    "d0_14_avg": 2359,
-    "d14_30_avg": 1908,
-    "d30plus_avg": 814
+    "d14_30_pct": 37,
+    "d30plus_pct": 17,
+    "d0_14_avg": 2341,
+    "d14_30_avg": 1874,
+    "d30plus_avg": 885
   },
   "chart": [
     {
