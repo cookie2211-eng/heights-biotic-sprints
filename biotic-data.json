@@ -1,5 +1,5 @@
 {
-  "data_end": "2026-06-14",
+  "data_end": "2026-06-21",
   "threshold": 1000,
   "sprints": [
     {
@@ -24,7 +24,7 @@
         "scalers_norm": 0.9,
         "scalers_complete": true,
         "primary_complete": true,
-        "primary_progress": 7.53,
+        "primary_progress": 7.77,
         "scaler_bar": 2000,
         "cpa": 113,
         "near_good": 8,
@@ -54,7 +54,7 @@
         "scalers_norm": 2.0,
         "scalers_complete": true,
         "primary_complete": true,
-        "primary_progress": 3.1,
+        "primary_progress": 3.33,
         "scaler_bar": 2000,
         "cpa": 271,
         "near_good": 0,
@@ -66,7 +66,7 @@
           "name": "Everyone thinks I'm a hermit · Biotic⁺ · GUTCONTROL",
           "spend": 6982,
           "cpa": 194,
-          "days": 93,
+          "days": 100,
           "first_spend": "Mar 13",
           "sprint_day": 12
         },
@@ -74,7 +74,7 @@
           "name": "The foods you’ve stopped eating · Biotic⁺ · NORMAL",
           "spend": 2883,
           "cpa": 222,
-          "days": 93,
+          "days": 100,
           "first_spend": "Mar 13",
           "sprint_day": 12
         },
@@ -82,7 +82,7 @@
           "name": "AMA · The world has shrunk woman V1 · Biotic⁺",
           "spend": 1869,
           "cpa": 208,
-          "days": 93,
+          "days": 100,
           "first_spend": "Mar 13",
           "sprint_day": 12
         },
@@ -90,7 +90,7 @@
           "name": "AMA · The world has shrunk man V1 · Biotic⁺",
           "spend": 1606,
           "cpa": 321,
-          "days": 93,
+          "days": 100,
           "first_spend": "Mar 13",
           "sprint_day": 12
         },
@@ -98,7 +98,7 @@
           "name": "Spencer stitch · V2 Hook 2 · Biotic⁺",
           "spend": 1072,
           "cpa": 134,
-          "days": 104,
+          "days": 111,
           "first_spend": "Mar 02",
           "sprint_day": 1
         },
@@ -106,7 +106,7 @@
           "name": "Spencer nutritionist advice · Hook 2 Narrative 1 · Biotic⁺",
           "spend": 1010,
           "cpa": 202,
-          "days": 98,
+          "days": 105,
           "first_spend": "Mar 08",
           "sprint_day": 7
         },
@@ -114,7 +114,7 @@
           "name": "AMA · Fear this is permanent woman V1 · Biotic⁺",
           "spend": 1008,
           "cpa": 202,
-          "days": 93,
+          "days": 100,
           "first_spend": "Mar 13",
           "sprint_day": 12
         }
@@ -125,7 +125,7 @@
           "spend": 6982,
           "spend_6w": 6982,
           "cpa": 194,
-          "days": 93,
+          "days": 100,
           "first_spend": "Mar 13",
           "sprint_day": 12
         },
@@ -134,7 +134,7 @@
           "spend": 2883,
           "spend_6w": 2883,
           "cpa": 222,
-          "days": 93,
+          "days": 100,
           "first_spend": "Mar 13",
           "sprint_day": 12
         }
@@ -163,7 +163,7 @@
         "scalers_norm": 5.0,
         "scalers_complete": true,
         "primary_complete": true,
-        "primary_progress": 2.63,
+        "primary_progress": 2.87,
         "scaler_bar": 2000,
         "cpa": 258,
         "near_good": 1,
@@ -175,7 +175,7 @@
           "name": "2603-058-05 · Biotic · IBS Sufferer · Gut Control · Brightshift · New Concept · B-06",
           "spend": 5129,
           "cpa": 233,
-          "days": 78,
+          "days": 85,
           "first_spend": "Mar 28",
           "sprint_day": 12
         },
@@ -183,7 +183,7 @@
           "name": "2603-037-15 · Biotic · IBS Sufferer · Gut Control · Internal · New Concept · B-06",
           "spend": 4886,
           "cpa": 244,
-          "days": 78,
+          "days": 85,
           "first_spend": "Mar 28",
           "sprint_day": 12
         },
@@ -191,7 +191,7 @@
           "name": "2603-048-05 · Biotic · Long Term Sufferer · Gut Control · Internal · Iteration · B-06",
           "spend": 4449,
           "cpa": 185,
-          "days": 79,
+          "days": 86,
           "first_spend": "Mar 27",
           "sprint_day": 12
         },
@@ -199,7 +199,7 @@
           "name": "2603-040-07 · Biotic · Supplement Sceptic · Internal · Iteration · B-06",
           "spend": 2257,
           "cpa": 564,
-          "days": 78,
+          "days": 85,
           "first_spend": "Mar 28",
           "sprint_day": 12
         },
@@ -207,7 +207,7 @@
           "name": "Man - Hook 1 · Biotic⁺ · GUTCONTROL",
           "spend": 2100,
           "cpa": 233,
-          "days": 87,
+          "days": 94,
           "first_spend": "Mar 19",
           "sprint_day": 4
         },
@@ -215,7 +215,7 @@
           "name": "2603-047-04 · Biotic · Internal · Iteration · B-06",
           "spend": 1329,
           "cpa": 190,
-          "days": 78,
+          "days": 85,
           "first_spend": "Mar 28",
           "sprint_day": 12
         },
@@ -223,7 +223,7 @@
           "name": "2603-058-07 · Biotic · IBS Sufferer · Gut Control · Brightshift · New Concept · B-06",
           "spend": 1301,
           "cpa": 260,
-          "days": 78,
+          "days": 85,
           "first_spend": "Mar 28",
           "sprint_day": 12
         }
@@ -234,7 +234,7 @@
           "spend": 5129,
           "spend_6w": 5129,
           "cpa": 233,
-          "days": 78,
+          "days": 85,
           "first_spend": "Mar 28",
           "sprint_day": 12
         },
@@ -243,7 +243,7 @@
           "spend": 4886,
           "spend_6w": 4886,
           "cpa": 244,
-          "days": 78,
+          "days": 85,
           "first_spend": "Mar 28",
           "sprint_day": 12
         },
@@ -252,7 +252,7 @@
           "spend": 4449,
           "spend_6w": 3988,
           "cpa": 185,
-          "days": 79,
+          "days": 86,
           "first_spend": "Mar 27",
           "sprint_day": 12
         },
@@ -261,7 +261,7 @@
           "spend": 2257,
           "spend_6w": 2257,
           "cpa": 564,
-          "days": 78,
+          "days": 85,
           "first_spend": "Mar 28",
           "sprint_day": 12
         },
@@ -270,7 +270,7 @@
           "spend": 2100,
           "spend_6w": 2100,
           "cpa": 233,
-          "days": 87,
+          "days": 94,
           "first_spend": "Mar 19",
           "sprint_day": 4
         }
@@ -299,7 +299,7 @@
         "scalers_norm": 6.0,
         "scalers_complete": true,
         "primary_complete": true,
-        "primary_progress": 2.17,
+        "primary_progress": 2.4,
         "scaler_bar": 2000,
         "cpa": 255,
         "near_good": 0,
@@ -311,7 +311,7 @@
           "name": "2604-119-12 · Biotic · Long Term Sufferer · normal · Brightshift · New Concept · B-03",
           "spend": 4757,
           "cpa": 198,
-          "days": 65,
+          "days": 72,
           "first_spend": "Apr 10",
           "sprint_day": 12
         },
@@ -319,7 +319,7 @@
           "name": "2604-103-01 · Biotic · IBS Sufferer · Gut Control · Internal · New Concept · B-03",
           "spend": 3335,
           "cpa": 196,
-          "days": 65,
+          "days": 72,
           "first_spend": "Apr 10",
           "sprint_day": 12
         },
@@ -327,7 +327,7 @@
           "name": "2603-078-65 · Biotic · IBS Sufferer · Gut Control · Brightshift · New Concept · B-06",
           "spend": 3255,
           "cpa": 181,
-          "days": 68,
+          "days": 75,
           "first_spend": "Apr 07",
           "sprint_day": 9
         },
@@ -335,7 +335,7 @@
           "name": "2604-119-05 · Biotic · Long Term Sufferer · normal · Brightshift · New Concept · B-03",
           "spend": 2790,
           "cpa": 254,
-          "days": 65,
+          "days": 72,
           "first_spend": "Apr 10",
           "sprint_day": 12
         },
@@ -343,7 +343,7 @@
           "name": "2603-078-49 · Biotic · IBS Sufferer · Gut Control · Brightshift · New Concept · B-06",
           "spend": 2461,
           "cpa": 154,
-          "days": 68,
+          "days": 75,
           "first_spend": "Apr 07",
           "sprint_day": 9
         },
@@ -351,7 +351,7 @@
           "name": "2604-120-02 · Biotic · founderhp · Brightshift · New Concept · B-03",
           "spend": 2127,
           "cpa": 236,
-          "days": 65,
+          "days": 72,
           "first_spend": "Apr 10",
           "sprint_day": 12
         },
@@ -359,7 +359,7 @@
           "name": "2604-120-11 · Biotic · founderhp · Brightshift · New Concept · B-03",
           "spend": 1175,
           "cpa": 392,
-          "days": 65,
+          "days": 72,
           "first_spend": "Apr 10",
           "sprint_day": 12
         }
@@ -370,7 +370,7 @@
           "spend": 4757,
           "spend_6w": 4757,
           "cpa": 198,
-          "days": 65,
+          "days": 72,
           "first_spend": "Apr 10",
           "sprint_day": 12
         },
@@ -379,7 +379,7 @@
           "spend": 3335,
           "spend_6w": 3335,
           "cpa": 196,
-          "days": 65,
+          "days": 72,
           "first_spend": "Apr 10",
           "sprint_day": 12
         },
@@ -388,7 +388,7 @@
           "spend": 3255,
           "spend_6w": 3255,
           "cpa": 181,
-          "days": 68,
+          "days": 75,
           "first_spend": "Apr 07",
           "sprint_day": 9
         },
@@ -397,7 +397,7 @@
           "spend": 2790,
           "spend_6w": 2790,
           "cpa": 254,
-          "days": 65,
+          "days": 72,
           "first_spend": "Apr 10",
           "sprint_day": 12
         },
@@ -406,7 +406,7 @@
           "spend": 2461,
           "spend_6w": 2461,
           "cpa": 154,
-          "days": 68,
+          "days": 75,
           "first_spend": "Apr 07",
           "sprint_day": 9
         },
@@ -415,7 +415,7 @@
           "spend": 2127,
           "spend_6w": 2127,
           "cpa": 236,
-          "days": 65,
+          "days": 72,
           "first_spend": "Apr 10",
           "sprint_day": 12
         }
@@ -444,7 +444,7 @@
         "scalers_norm": 1.0,
         "scalers_complete": true,
         "primary_complete": true,
-        "primary_progress": 1.7,
+        "primary_progress": 1.93,
         "scaler_bar": 2000,
         "cpa": 119,
         "near_good": 1,
@@ -456,7 +456,7 @@
           "name": "2604-170-06 · Biotic · Health Optimiser · nothingworks · Brightshift · Iteration · B-03",
           "spend": 37975,
           "cpa": 120,
-          "days": 60,
+          "days": 67,
           "first_spend": "Apr 15",
           "sprint_day": 3
         },
@@ -464,7 +464,7 @@
           "name": "2604-177-04 · Biotic · Health Optimiser · Gut Control · Internal · Iteration · B-03",
           "spend": 1700,
           "cpa": 121,
-          "days": 60,
+          "days": 67,
           "first_spend": "Apr 15",
           "sprint_day": 3
         }
@@ -475,7 +475,7 @@
           "spend": 37975,
           "spend_6w": 33396,
           "cpa": 120,
-          "days": 60,
+          "days": 67,
           "first_spend": "Apr 15",
           "sprint_day": 3
         }
